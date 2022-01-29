@@ -7,8 +7,10 @@
     "test": "jest --watchAll",
     "test:staged": "jest --passWithNoTests"
   },
-  "standard": {
-    "env": ["jest"]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "author": "",
   "license": "ISC",
