@@ -11,6 +11,9 @@
     "test:ci": "npm test -- --coverage",
     "prepare": "husky install"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
